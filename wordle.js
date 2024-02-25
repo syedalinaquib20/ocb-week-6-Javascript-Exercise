@@ -31,7 +31,7 @@ const filterWords = (words, hasLetters, mustNotHaveLetters, mustHaveLettersInPos
             if (mustNotHaveLettersInPosition[i] !== undefined && word[i] === mustNotHaveLettersInPosition[i]) return false;
         }
 
-        // If all checks passed, include the word
+        // If all checks passed
         return true;
     });
 };
